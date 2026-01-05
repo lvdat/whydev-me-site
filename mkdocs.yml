@@ -1,1 +1,42 @@
-site_name: My Docs
+site_name: WhyDev
+site_url: https://whydev.me/
+
+theme:
+  name: material
+  language: vi
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+
+plugins:
+  - search
+  - blog:
+      blog_dir: 
+      post_dir: blog/posts
+      archive: true
+      categories: true
+      post_url_format: "{date}/{slug}"
+
+nav:
+  - "Trang chủ": index.md
+  - Minevui Network:
+      - minevui-network/index.md
+  - Minevui Optimized:
+      - minevui-optimized/index.md
+  - Blog:
+      - blog/index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
