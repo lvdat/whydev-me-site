@@ -21,10 +21,16 @@ theme:
     - search.highlight
     - search.share
   palette: 
-    scheme: slate
-    primary: black
-    accent: green
-  
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Chuyển sang chế độ sáng
+      primary: black
+      accent: green
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Chuyển sang chế độ tối
 
 plugins:
   - search
@@ -38,7 +44,7 @@ plugins:
 nav:
   - "Trang chủ": index.md
   - Minevui Network: 
-    - "Thông tin chung": minevui-network/thong-tin-chung/index.md
+    - minevui-network/index.md
     - "Donate": minevui-network/thong-tin-chung/donate.md
     - "Mùa 10":
       - "Giới thiệu": minevui-network/s10/intro.md
