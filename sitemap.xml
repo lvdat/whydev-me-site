@@ -2,34 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://whydev.me/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/blog/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/blog/2026/01/05/b%C3%A0i-vi%E1%BA%BFt-%C4%91%E1%BA%A7u-ti%C3%AAn/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/minevui-network/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://whydev.me/minevui-network/misc/auth/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://whydev.me/minevui-network/s10/intro/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://whydev.me/minevui-network/thong-tin-chung/donate/</loc>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/minevui-optimized/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/blog/archive/2026/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/blog/category/devlog/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
          <loc>https://whydev.me/blog/category/minecraft/</loc>
-         <lastmod>2026-01-05</lastmod>
+         <lastmod>2026-01-20</lastmod>
     </url>
 </urlset>
