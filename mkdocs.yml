@@ -48,6 +48,9 @@ nav:
   - Minevui Optimized: minevui-optimized/index.md
   - Blog: blog/index.md
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 markdown_extensions:
   - admonition
   - attr_list
