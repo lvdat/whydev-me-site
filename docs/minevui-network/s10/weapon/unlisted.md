@@ -5,17 +5,16 @@ Vũ khí banner limited đầu tiên của máy chủ
 <div class="why-card why-item">
 
   <div class="why-item__img">
-    <img src="../../assets/images/items/lustrous-razor.png" alt="Lustrous Razor">
+    <img src="https://wuthering.gg/_ipx/q_70&s_240x240/images/Items/T_IconWeapon21020016_UI.png" alt="Vũ khí 1">
   </div>
 
   <div>
-    <div class="why-item__title">Lustrous Razor</div>
+    <div class="why-item__title">Vũ khí 1</div>
 
     <div class="why-pills">
-      <div class="why-pill"><span>ATK</span><span>366.76</span></div>
-      <div class="why-pill"><span>ATK%</span><span>25.42%</span></div>
-      <div class="why-pill"><span>Level</span><span>58 / 60</span></div>
-      <div class="why-pill"><span>Rank</span><span>1</span></div>
+        <div class="why-pill"><span>Tấn công</span><span>14</span></div>
+        <div class="why-pill"><span>Tỉ lệ chí mạng</span><span>36%</span></div>
+        <div class="why-pill"><span>Tốc độ đánh</span><span>1.7</span></div>
     </div>
 
     <div class="why-section-title">Ascension Materials</div>
@@ -51,6 +50,6 @@ Vũ khí banner limited đầu tiên của máy chủ
 </div>
 
 <div class="why-card why-panel">
-  <h3>Skill — Stormy Resolution</h3>
-  <p>Tăng Energy Regen <b style="color: #9db4ff;">12.8%</b>. Khi dùng kỹ năng, tăng Resonance Liberation DMG Bonus <b style="color: #9db4ff;">7%</b>, cộng dồn tối đa <b style="color: #9db4ff;">3</b> lần, kéo dài <b style="color: #9db4ff;">12s</b>.</p>
+  <h3>Nội tại — A</h3>
+  <p>Khi đánh chí mạng, tăng tổng sát thương gây ra thêm <b style="color: #9db4ff;">10%</b> trong 10 giây, (hồi chiêu <b style="color: #9db4ff;">10s</b>).</p>
 </div>
