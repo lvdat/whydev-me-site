@@ -20,7 +20,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  palette: 
+  palette:
     - scheme: slate
       toggle:
         icon: material/brightness-4
@@ -34,8 +34,9 @@ theme:
 
 plugins:
   - search
+  - awesome-nav
   - blog:
-      blog_dir: 
+      blog_dir: blog
       post_dir: blog/posts
       archive: true
       categories: true
@@ -43,17 +44,9 @@ plugins:
 
 nav:
   - "Trang chủ": index.md
-  - Minevui Network: 
-    - minevui-network/index.md
-    - "Donate": minevui-network/thong-tin-chung/donate.md
-    - "Mùa 10":
-      - "Giới thiệu": minevui-network/s10/intro.md
-    - "Hướng dẫn":
-      - "Đăng nhập/Đăng ký": minevui-network/misc/auth.md
-  - Minevui Optimized: 
-    - minevui-optimized/index.md
-  - Blog: 
-    - blog/
+  - Minevui Network: minevui-network/index.md
+  - Minevui Optimized: minevui-optimized/index.md
+  - Blog: blog/index.md
 
 markdown_extensions:
   - admonition
