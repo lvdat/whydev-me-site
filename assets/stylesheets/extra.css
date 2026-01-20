@@ -1,0 +1,341 @@
+/* ===== Game UI vibe (dark / glass / accent) ===== */
+:root {
+  --why-bg0: #0b1020;
+  --why-bg1: #0f172a;
+  --why-card: rgba(255, 255, 255, 0.06);
+  --why-card2: rgba(255, 255, 255, 0.08);
+  --why-border: rgba(255, 255, 255, 0.10);
+  --why-text: rgba(255, 255, 255, 0.90);
+  --why-muted: rgba(255, 255, 255, 0.65);
+  --why-accent: #f7d46a;   /* vàng */
+  --why-accent2: #67e8f9;  /* xanh */
+  --why-radius: 18px;
+  --why-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+[data-md-color-scheme="slate"] .md-main {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(103, 232, 249, 0.10), transparent 55%),
+    radial-gradient(900px 500px at 70% 10%, rgba(247, 212, 106, 0.10), transparent 55%),
+    linear-gradient(180deg, var(--why-bg1), var(--why-bg0));
+}
+
+.why-card {
+  background: var(--why-card);
+  border: 1px solid var(--why-border);
+  border-radius: var(--why-radius);
+  box-shadow: var(--why-shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.why-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 18px;
+  padding: 18px;
+  align-items: start;
+}
+
+.why-item__img {
+  width: 140px;
+  height: 140px;
+  border-radius: 14px;
+  border: 2px solid rgba(247, 212, 106, 0.55);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.why-item__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.why-item__title {
+  margin: 4px 0 10px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  font-size: 2rem;
+  color: var(--why-accent);
+  line-height: 1.15;
+}
+
+.why-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.why-pill {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  min-width: 220px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: var(--why-card2);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  font-weight: 700;
+}
+
+.why-pill span:first-child {
+  color: var(--why-text);
+}
+
+.why-pill span:last-child {
+  color: var(--why-accent2);
+}
+
+.why-section-title {
+  margin: 18px 0 10px;
+  font-weight: 800;
+  color: var(--why-text);
+  font-size: 1.2rem;
+}
+
+.why-panel {
+  margin-top: 14px;
+  padding: 16px;
+}
+
+.why-panel h3 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  color: #9db4ff;
+}
+
+.why-panel p {
+  margin: 0;
+  color: var(--why-muted);
+}
+
+/* Grid cho “materials” */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.why-material {
+  padding: 12px;
+}
+
+.why-material__top {
+  display: flex;
+  justify-content: space-between;
+  color: var(--why-muted);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.why-material__name {
+  font-weight: 800;
+  color: var(--why-text);
+}
+
+.why-material__qty {
+  color: var(--why-accent2);
+  font-weight: 800;
+}
+
+/* ===== Boss Template ===== */
+.why-boss {
+  padding: 18px;
+}
+
+.why-boss__top {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.why-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.10);
+  overflow: hidden;
+  background: rgba(255,255,255,0.04);
+}
+
+.why-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.why-boss__title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+
+.why-boss__name {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: rgba(255,255,255,0.92);
+}
+
+.why-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.78rem;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.85);
+}
+
+.why-tag--accent {
+  color: #67e8f9;
+}
+
+.why-tag--cost {
+  color: #f7d46a;
+}
+
+.why-boss__meta {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+  max-width: 520px;
+}
+
+/* fake sliders */
+.why-slider {
+  display: grid;
+  grid-template-columns: 70px 1fr 46px;
+  gap: 12px;
+  align-items: center;
+}
+
+.why-slider__label {
+  color: rgba(255,255,255,0.75);
+  font-weight: 800;
+}
+
+.why-slider__bar {
+  position: relative;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  overflow: hidden;
+}
+
+.why-slider__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--pct, 50%);
+  background: linear-gradient(90deg, rgba(247,212,106,0.95), rgba(103,232,249,0.9));
+}
+
+.why-slider__knob {
+  position: absolute;
+  top: 50%;
+  left: var(--pct, 50%);
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.45);
+}
+
+.why-slider__value {
+  text-align: right;
+  color: rgba(255,255,255,0.88);
+  font-weight: 900;
+}
+
+/* mid grid */
+.why-boss__mid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .why-boss__mid { grid-template-columns: 1fr; }
+}
+
+.why-card-title {
+  padding: 14px 14px 10px;
+  font-weight: 900;
+  color: rgba(255,255,255,0.92);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.why-list {
+  padding: 10px 8px 12px;
+}
+
+.why-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 9px 10px;
+  border-radius: 12px;
+}
+
+.why-row:nth-child(odd) {
+  background: rgba(255,255,255,0.04);
+}
+
+.why-stat-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.86);
+}
+
+.why-stat-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 900;
+  background: rgba(103,232,249,0.12);
+  border: 1px solid rgba(103,232,249,0.18);
+  color: #67e8f9;
+}
+
+.why-stat-value {
+  font-weight: 900;
+  color: #9db4ff;
+}
+
+/* ability panel */
+.why-ability {
+  margin-top: 14px;
+  padding: 14px;
+}
+
+.why-ability__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.why-ability__name {
+  font-weight: 900;
+  color: rgba(255,255,255,0.92);
+}
+
+.why-ability__rank {
+  font-weight: 900;
+  color: rgba(255,255,255,0.70);
+}
