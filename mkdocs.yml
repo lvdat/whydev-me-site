@@ -6,21 +6,28 @@ theme:
   language: vi
   features:
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - toc.follow
+    - toc.integrate
     - content.code.copy
     - search.suggest
     - search.highlight
     - search.share
+  palette: 
+    scheme: slate
+    primary: black
+    accent: green
+  
 
 plugins:
   - search
-  - awesome-pages
   - blog:
       blog_dir: 
       post_dir: blog/posts
@@ -30,9 +37,17 @@ plugins:
 
 nav:
   - "Trang chủ": index.md
-  - Minevui Network: minevui-network/
-  - Minevui Optimized: minevui-optimized/
-  - Blog: blog/
+  - Minevui Network: 
+    - "Thông tin chung": minevui-network/thong-tin-chung/index.md
+    - "Donate": minevui-network/thong-tin-chung/donate.md
+    - "Mùa 10":
+      - "Giới thiệu": minevui-network/s10/intro.md
+    - "Hướng dẫn":
+      - "Đăng nhập/Đăng ký": minevui-network/misc/auth.md
+  - Minevui Optimized: 
+    - minevui-optimized/index.md
+  - Blog: 
+    - blog/
 
 markdown_extensions:
   - admonition
