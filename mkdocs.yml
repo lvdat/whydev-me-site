@@ -20,6 +20,8 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - header.autohide
+    - navigation.footer
   palette:
     scheme: slate
     primary: black
@@ -57,3 +59,8 @@ markdown_extensions:
 
 repo_url: https://github.com/lvdat/whydev-me-sites
 repo_name: lvdat/whydev-me-sites
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/minevui
