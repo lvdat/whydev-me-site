@@ -20,6 +20,7 @@ theme:
 
 plugins:
   - search
+  - awesome-pages
   - blog:
       blog_dir: 
       post_dir: blog/posts
@@ -29,12 +30,9 @@ plugins:
 
 nav:
   - "Trang chủ": index.md
-  - Minevui Network:
-      - minevui-network/index.md
-  - Minevui Optimized:
-      - minevui-optimized/index.md
-  - Blog:
-      - blog/index.md
+  - Minevui Network: minevui-network/
+  - Minevui Optimized: minevui-optimized/
+  - Blog: blog/
 
 markdown_extensions:
   - admonition
