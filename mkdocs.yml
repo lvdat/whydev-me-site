@@ -58,3 +58,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
+
+repo_url: https://github.com/lvdat/whydev-me-sites
+repo_name: lvdat/whydev-me-sites
