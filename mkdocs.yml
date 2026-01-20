@@ -21,16 +21,9 @@ theme:
     - search.highlight
     - search.share
   palette:
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Chuyển sang chế độ sáng
-      primary: black
-      accent: green
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Chuyển sang chế độ tối
+    scheme: slate
+    primary: black
+    accent: green
 
 plugins:
   - search
