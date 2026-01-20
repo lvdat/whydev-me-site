@@ -11,6 +11,9 @@ theme:
     - navigation.top
     - toc.follow
     - content.code.copy
+    - search.suggest
+    - search.highlight
+    - search.share
 
 plugins:
   - search
