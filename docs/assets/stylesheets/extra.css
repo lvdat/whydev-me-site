@@ -54,12 +54,24 @@
 }
 
 .why-item__title {
-  margin: 4px 0 10px;
+  /* margin: 4px 0 10px;
   font-weight: 800;
   letter-spacing: 0.3px;
   font-size: 2rem;
   color: var(--why-accent);
-  line-height: 1.15;
+  line-height: 1.15; */
+    margin: 4px 0 10px;
+    font-weight: 800;
+  font-size: 1.7em;
+  background: linear-gradient(
+    to bottom,
+    #b56cff 0%,
+    #b56cff 50%,
+    #ff5ec4 50%,
+    #ff5ec4 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .why-pills {
@@ -338,4 +350,30 @@
 .why-ability__rank {
   font-weight: 900;
   color: rgba(255,255,255,0.70);
+}
+
+/* animation */
+@keyframes neonPulse {
+  0% {
+    text-shadow:
+      0 0 5px #b56cff,
+      0 0 10px #b56cff,
+      0 0 20px #ff5ec4;
+  }
+  50% {
+    text-shadow:
+      0 0 10px #ff5ec4,
+      0 0 20px #ff5ec4,
+      0 0 40px #ff9fe3;
+  }
+  100% {
+    text-shadow:
+      0 0 5px #b56cff,
+      0 0 10px #b56cff,
+      0 0 20px #ff5ec4;
+  }
+}
+
+.why-neon {
+  animation: neonPulse 1.8s infinite ease-in-out;
 }
