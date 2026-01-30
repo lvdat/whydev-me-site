@@ -35,7 +35,9 @@ Khi các bạn donate thì sẽ nhận role **Donator** trong Discord và **Rank
 
 > Chú ý quyền lợi chỉ áp dụng với cụm máy chủ sinh tồn được làm bởi mình (**why**), các cụm chế độ khác sẽ tuỳ thuộc vào tình hình điều kiện mà có đặc quyền riêng!
 
-![IMG_20250524_235423](https://github.com/user-attachments/assets/d9379530-9955-4810-9eec-813eaf274e54)
+<!--![IMG_20250524_235423](https://github.com/user-attachments/assets/d9379530-9955-4810-9eec-813eaf274e54)-->
+
+Season 10 coming soon!
 
 > Các quyền lợi đang được tính toán và sẽ cập nhật liên tục! Các đặc quyền không mang tính tác động đến cân bằng trò chơi, không ảnh hưởng người khác.
 
@@ -43,34 +45,36 @@ Khi các bạn donate thì sẽ nhận role **Donator** trong Discord và **Rank
 
 Dưới đây là danh sách các **Donator** đã ủng hộ cho MineVui! Xin chân thành cảm ơn các bạn đã góp phần duy trì máy chủ!
 
-> _Danh sách cập nhật ngày 02/07/2025_
+> _Danh sách cập nhật ngày 31/01/2026_
 
 ```
 #1 - @arumakaiyo (650k)
 #2 - @huytbb (592k)
-#3 - @whovictim (500k)
+#3 - @wpuon (500k)
 #4 - @_ovtked.yukagi (320k)
-#5 - @naterds (305k)
-#6 - @totallynotkhang (150k)
-#6 - @nguyenquan09209 (150k)
-#6 - @sslepi2402 (150k)
-#6 - @catty1609 (150k)
-#10 - @cheems2807 (100k)
+#5 - @kovalsowa (305k)
+#6 - @totallynotkhang (300k)
+#7 - @nguyenquan09209 (150k)
+#7 - @sslepi2402 (150k)
+#7 - @czy_catty1609 (150k)
+#10 - @doro2807 (100k)
 #11 - @byuni28 (75k)
-#12 - @szyyy___ (70k)
-#13 - @lh_jannnnnne  (50k)
-#13 - @lomoho149 (50k)
-#13 - @pawwaoshisui (50k)
-#13 - @shi_pnt (50k)
-#17 - @dark_traan (44k)
-#18 - @kkuhaku001 (20k)
-#18 - @hieuhoangtrung (20k)
-#18 - @bach.hac (20k)
-#18 - @hinambebee  (20k)
-#22 - @danielhuynh2109 (15k)
-#23 - <@1125607999180914789> (10k)
-#23 - @.dragon404 (10k)
-#23 - @hbachdangcap009 (10k)
-#23 - @xhieu231 (10k)
-#23 - @namkowboi (10k)
+#12 - @szyy1_ (70k)
+#13 - @small._orca (65k)
+#14 - @sonhoangtuech (60k)
+#15 - <@1056902766498418749>  (50k)
+#15 - @lomoho149 (50k)
+#15 - @pawwaoshisui (50k)
+#15 - @kyo._shi (50k)
+#15 -  <@1355942622719643741> (50k)
+#20 - @dark_traan (44k)
+#21 - @eddydzaii (30k)
+#22 - @kkuhaku001 (20k)
+#22 - @hieuhoangtrung (20k)
+#22 - @bach.hac (20k)
+#22 - @hinambebee  (20k)
+#26 - @.dragon404 (10k)
+#26 - @hbachdangcap009 (10k)
+#26 - @xhieu231 (10k)
+#26 - @namkowboi (10k)
 ```
