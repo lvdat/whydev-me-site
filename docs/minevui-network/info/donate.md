@@ -45,15 +45,15 @@ Season 10 coming soon!
 
 Dưới đây là danh sách các **Donator** đã ủng hộ cho MineVui! Xin chân thành cảm ơn các bạn đã góp phần duy trì máy chủ!
 
-> _Danh sách cập nhật ngày 31/01/2026_
+> _Danh sách cập nhật ngày 05/05/2026_
 
 ```
 #1 - @arumakaiyo (650k)
 #2 - @huytbb (592k)
 #3 - @wpuon (500k)
-#4 - @_ovtked.yukagi (320k)
-#5 - @kovalsowa (305k)
-#6 - @totallynotkhang (300k)
+#4 - @totallynotkhang (350k)
+#5 - @_ovtked.yukagi (320k)
+#6 - @kovalsowa (305k)
 #7 - @nguyenquan09209 (150k)
 #7 - @sslepi2402 (150k)
 #7 - @czy_catty1609 (150k)
